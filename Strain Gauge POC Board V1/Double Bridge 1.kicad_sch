@@ -8228,7 +8228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ce8633-9141-48d9-bee0-12e53cd06d80")
-		(property "Reference" "J302"
+		(property "Reference" "J301"
 			(at 538.48 186.0549 90)
 			(effects
 				(font
@@ -8291,7 +8291,7 @@
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/fe881be6-80bd-426d-a3d6-be163c7c4112"
-					(reference "J302")
+					(reference "J301")
 					(unit 1)
 				)
 			)
