@@ -237,6 +237,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Capacitor 12V Picogrid:2.2u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2.2u"
+				(at 1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "ulib_Capacitor_SMD:C_0805_2012Metric"
+				(at 9.525 -15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.calchipelectronics.com/pdf/gmc_series.pdf"
+				(at 11.43 -18.415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16V; X7R; 10%; 0805; GMC21X7R225K16NT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mfr PN" "GMC21X7R225K16NT"
+				(at 1.905 -1.905 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Mfr Link" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "16V"
+				(at 1.905 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 1.905 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Package" "0805"
+				(at 1.905 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "2.2u_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.159) (xy 1.27 -2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.921) (xy 1.27 -2.921)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2.2u_1_1"
+				(pin passive line
+					(at 0 0 270)
+					(length 2.1)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.1)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitor 12V Picogrid:22u"
 			(pin_numbers
 				(hide yes)
@@ -932,163 +1098,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ulib_Capacitor_SMD_250V:470p"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 1.905 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "470p"
-				(at 1.905 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "ulib_Capacitor_SMD:C_0603_1608Metric"
-				(at 0 -12.065 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C471JAGACAUTO"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "250V; C0G; 5%; 0603; C0603C471JAGACAUTO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr PN" "C0603C471JAGACAUTO"
-				(at 1.905 -1.905 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-					(justify left)
-				)
-			)
-			(property "Voltage" "250V"
-				(at 1.905 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Dielectric" "C0G"
-				(at 1.905 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Package" "0603"
-				(at 1.905 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(symbol "470p_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.159) (xy 1.27 -2.159)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.921) (xy 1.27 -2.921)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "470p_1_1"
-				(pin passive line
-					(at 0 0 270)
-					(length 2.1)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.1)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ulib_Connectors_DuraClik:502352-0210"
 			(pin_numbers
 				(hide yes)
@@ -1435,6 +1444,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ulib_Mounting_Holes:M3 Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M3-PAD"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ulib_Mechanical:MountingHole_3.2mm_M3_Pad_Via"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with pad with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M3 Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "M3 Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ulib_Resistor_SMD_0.1W:0"
 			(pin_numbers
 				(hide yes)
@@ -1579,27 +1695,53 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ulib_TestPoints:Pad_0.15mm"
+		(symbol "ulib_Resistor_SMD_0.5W:1k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 1.524 1.524 0)
+			(property "Reference" "R"
+				(at 1.905 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "1k"
+				(at 1.905 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "TestPoint:TestPoint_Pad_D0.15mm"
+			(property "Footprint" "ulib_Resistors_SMD:R_1206_3216Metric"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1608,7 +1750,43 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Mfr PN" "ESR18EZPJ102"
+				(at 1.905 -1.905 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+					(justify left)
+				)
+			)
+			(property "Power" "1/2W"
+				(at 1.905 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Package" "1206"
+				(at 1.905 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 1.905 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "anti-surge thick film resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1617,21 +1795,12 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Pad_0.15mm_0_1"
-				(circle
-					(center 0 0)
-					(radius 0.508)
+			(symbol "1k_0_1"
+				(rectangle
+					(start -0.762 -0.762)
+					(end 0.762 -4.318)
 					(stroke
-						(width 0)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -1639,11 +1808,11 @@
 					)
 				)
 			)
-			(symbol "Pad_0.15mm_1_1"
+			(symbol "1k_1_1"
 				(pin passive line
-					(at 0 0 90)
-					(length 0)
-					(name "1"
+					(at 0 0 270)
+					(length 0.762)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1651,6 +1820,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1711,8 +1898,8 @@
 		(uuid 67a19eca-1d4a-442f-888b-7e04c7798ef6)
 	)
 	(rectangle
-		(start 252.4916 191.2004)
-		(end 260.348 194.5613)
+		(start 247.7743 188.879)
+		(end 255.6307 192.2399)
 		(stroke
 			(width 0)
 			(type default)
@@ -1747,8 +1934,8 @@
 		(uuid cff97bfa-40ea-48c0-bf93-0b0aa331cec5)
 	)
 	(rectangle
-		(start 232.2756 191.3157)
-		(end 240.1573 194.6592)
+		(start 237.3556 188.7757)
+		(end 245.2373 192.1192)
 		(stroke
 			(width 0)
 			(type default)
@@ -1760,7 +1947,7 @@
 	)
 	(text "Compression \nSerpentine 1"
 		(exclude_from_sim no)
-		(at 256.54 193.04 0)
+		(at 251.8227 190.7186 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1840,7 +2027,7 @@
 	)
 	(text "place right next to wheatstone\noutput to minimize stub length"
 		(exclude_from_sim no)
-		(at 261.112 235.966 0)
+		(at 211.328 235.966 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1870,7 +2057,7 @@
 	)
 	(text "Strain \nSerpentine 1"
 		(exclude_from_sim no)
-		(at 236.22 193.04 0)
+		(at 241.3 190.5 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -1909,6 +2096,12 @@
 		(uuid "f4103caa-dab0-47f3-bbc3-4908b79f6bff")
 	)
 	(junction
+		(at 246.38 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118f83fe-eceb-450e-b43a-c38f2050790a")
+	)
+	(junction
 		(at 231.14 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1945,22 +2138,10 @@
 		(uuid "33ce0b3f-10ee-4d65-be26-efcd0c07ad95")
 	)
 	(junction
-		(at 482.6 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e2112d0-e684-40cc-9489-79644d64aa29")
-	)
-	(junction
 		(at 467.36 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45656ed0-ac15-440a-9f12-84f060b00731")
-	)
-	(junction
-		(at 241.3 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a64b7bf-4eb0-4fb9-9269-e0b88bb82a1e")
 	)
 	(junction
 		(at 502.92 205.74)
@@ -1987,40 +2168,10 @@
 		(uuid "54c44312-74b9-4f07-a380-98e5f0827f62")
 	)
 	(junction
-		(at 447.04 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5eaa3c06-5714-4d53-a124-fbf7bde29104")
-	)
-	(junction
 		(at 50.8 320.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61d7006f-d014-4709-a989-3ebb4acec99e")
-	)
-	(junction
-		(at 246.38 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62ecb530-088b-41c0-a7fc-a4324f0108ce")
-	)
-	(junction
-		(at 505.46 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71f4b645-1f55-4939-aa0e-18fff784bbd5")
-	)
-	(junction
-		(at 251.46 195.5806)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7af4ad3b-48f5-4da0-9adc-01ae5531a707")
-	)
-	(junction
-		(at 241.3 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84f8954e-6927-4f01-9edc-5e7c7f20a551")
 	)
 	(junction
 		(at 48.26 172.72)
@@ -2029,28 +2180,16 @@
 		(uuid "8706e563-60ff-4c29-b2d3-858065f23ce1")
 	)
 	(junction
-		(at 467.36 223.52)
+		(at 467.36 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8bf1e27e-d9e8-4257-bb8d-9f99e99fd57f")
-	)
-	(junction
-		(at 505.46 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f57a09d-5d70-4bee-b2f0-2d73a4dab9a0")
+		(uuid "871e3ae6-761e-4f68-8ba0-cb29f5d06dd7")
 	)
 	(junction
 		(at 241.3 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "946002ee-e24d-4df3-8b2d-3f55328bebc6")
-	)
-	(junction
-		(at 251.46 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96476cfb-6b02-4892-9ec9-c1db348997de")
 	)
 	(junction
 		(at 266.7 182.88)
@@ -2063,6 +2202,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d09e10-fd32-4534-a323-91460df75731")
+	)
+	(junction
+		(at 447.04 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99dd7c6c-69ff-41a5-8370-8239080fa2a7")
 	)
 	(junction
 		(at 71.12 172.72)
@@ -2089,10 +2234,16 @@
 		(uuid "b6d7bdbf-c2c6-4323-9bf8-f185aa3621a3")
 	)
 	(junction
-		(at 241.3 195.58)
+		(at 482.6 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9dd9fd7-7623-421c-80b2-78363ecdfde7")
+		(uuid "c6650302-0e35-4562-97fa-74137aea495c")
+	)
+	(junction
+		(at 505.46 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c70dd0cd-04d3-4bce-812e-dd2b6015837a")
 	)
 	(junction
 		(at 48.26 160.02)
@@ -2113,12 +2264,6 @@
 		(uuid "e95cc434-b493-4259-bdb3-eb69404f6937")
 	)
 	(junction
-		(at 482.6 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9caa667-0485-41b8-b4ad-6e43d8619358")
-	)
-	(junction
 		(at 309.88 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2129,16 +2274,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb04038f-78d9-4d99-a987-6a01d6d807ce")
-	)
-	(wire
-		(pts
-			(xy 482.6 208.28) (xy 482.6 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "010339f1-e012-43d7-94f4-08eb6193ad14")
 	)
 	(wire
 		(pts
@@ -2182,16 +2317,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 205.74) (xy 505.46 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "067c52dd-c2ce-4633-8cae-8e24aae1389b")
-	)
-	(wire
-		(pts
 			(xy 48.26 160.02) (xy 71.12 160.02)
 		)
 		(stroke
@@ -2209,6 +2334,16 @@
 			(type default)
 		)
 		(uuid "0755b145-4bce-4e2e-ab6b-73c54b65ea1e")
+	)
+	(wire
+		(pts
+			(xy 447.04 236.22) (xy 447.04 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075e5780-d75b-46b5-8e92-561ba46c7a36")
 	)
 	(wire
 		(pts
@@ -2242,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 182.88) (xy 241.3 190.5)
+			(xy 241.3 182.88) (xy 241.3 200.66)
 		)
 		(stroke
 			(width 0)
@@ -2252,17 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 205.74) (xy 518.16 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1cdeab-0724-4461-babc-ff33cf6f7052")
-	)
-	(wire
-		(pts
-			(xy 447.04 238.76) (xy 467.36 238.76)
+			(xy 447.04 233.68) (xy 467.36 233.68)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 208.28) (xy 482.6 208.28)
+			(xy 459.74 208.28) (xy 487.68 208.28)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 502.92 205.74) (xy 505.46 205.74)
+			(xy 502.92 205.74) (xy 518.16 205.74)
 		)
 		(stroke
 			(width 0)
@@ -2359,6 +2484,16 @@
 			(type default)
 		)
 		(uuid "1ebd2427-c8af-46c8-9487-5993988a10bf")
+	)
+	(wire
+		(pts
+			(xy 505.46 220.98) (xy 546.1 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f7a6731-00fb-4b28-afab-ddb8444368ce")
 	)
 	(wire
 		(pts
@@ -2409,16 +2544,6 @@
 			(type default)
 		)
 		(uuid "26f6e514-ea18-4dba-b9f5-f759e7c1fcf9")
-	)
-	(wire
-		(pts
-			(xy 251.46 195.5806) (xy 251.46 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "280e36c1-4234-472c-af44-953be22b168c")
 	)
 	(wire
 		(pts
@@ -2512,17 +2637,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 195.58) (xy 241.3 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49781987-ce72-4bfe-9d48-36f9c23abae5")
-	)
-	(wire
-		(pts
-			(xy 546.1 213.36) (xy 546.1 223.52)
+			(xy 546.1 213.36) (xy 546.1 220.98)
 		)
 		(stroke
 			(width 0)
@@ -2539,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "5837582f-0898-4ff4-856f-0f0cae5d8367")
+	)
+	(wire
+		(pts
+			(xy 505.46 231.14) (xy 505.46 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58430f1a-6ba3-4729-beb1-3b58e4a813e3")
 	)
 	(wire
 		(pts
@@ -2572,16 +2697,6 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 218.44) (xy 447.04 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "652200e5-0989-4b63-8bca-2d56cfa937b7")
-	)
-	(wire
-		(pts
 			(xy 33.02 175.26) (xy 33.02 172.72)
 		)
 		(stroke
@@ -2612,7 +2727,7 @@
 	)
 	(wire
 		(pts
-			(xy 414.02 254) (xy 241.3 254)
+			(xy 414.02 254) (xy 231.14 254)
 		)
 		(stroke
 			(width 0)
@@ -2629,6 +2744,16 @@
 			(type default)
 		)
 		(uuid "6d713dfe-845a-4053-9276-85f7b3b38cc4")
+	)
+	(wire
+		(pts
+			(xy 447.04 218.44) (xy 447.04 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eeecb7b-a1a0-4903-8a4f-358aa9718163")
 	)
 	(wire
 		(pts
@@ -2652,7 +2777,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 223.52) (xy 459.74 223.52)
+			(xy 467.36 220.98) (xy 459.74 220.98)
 		)
 		(stroke
 			(width 0)
@@ -2682,16 +2807,6 @@
 	)
 	(wire
 		(pts
-			(xy 505.46 223.52) (xy 546.1 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c0d804f-0543-4f12-9b6d-71a3f38dced1")
-	)
-	(wire
-		(pts
 			(xy 447.04 172.72) (xy 447.04 175.26)
 		)
 		(stroke
@@ -2699,16 +2814,6 @@
 			(type default)
 		)
 		(uuid "7d094170-c54c-4363-a4fd-fbde29a58aec")
-	)
-	(wire
-		(pts
-			(xy 505.46 223.52) (xy 482.6 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f0ef4d9-7662-45c0-9775-f89a683a05dc")
 	)
 	(wire
 		(pts
@@ -2722,7 +2827,17 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 228.6) (xy 467.36 223.52)
+			(xy 482.6 220.98) (xy 505.46 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846e1571-2e74-4436-a12c-09d78d487fc1")
+	)
+	(wire
+		(pts
+			(xy 467.36 226.06) (xy 467.36 220.98)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +2847,7 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 223.52) (xy 459.74 210.82)
+			(xy 459.74 220.98) (xy 459.74 210.82)
 		)
 		(stroke
 			(width 0)
@@ -2812,16 +2927,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 254) (xy 231.14 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a06a901e-8977-4f6b-8bd1-68a1750d8e46")
-	)
-	(wire
-		(pts
 			(xy 231.14 233.68) (xy 231.14 223.52)
 		)
 		(stroke
@@ -2832,6 +2937,26 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 231.14) (xy 482.6 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a3fdf0-7984-4ee1-8b68-e7a8eb07b608")
+	)
+	(wire
+		(pts
+			(xy 482.6 226.06) (xy 482.6 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a530225f-2330-4b3c-a29f-ed074fdbfd63")
+	)
+	(wire
+		(pts
 			(xy 251.46 167.64) (xy 251.46 172.72)
 		)
 		(stroke
@@ -2839,16 +2964,6 @@
 			(type default)
 		)
 		(uuid "a76265d5-dc4b-4b9e-b4a6-8dded58fbf0c")
-	)
-	(wire
-		(pts
-			(xy 482.6 208.28) (xy 487.68 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a766de76-b324-4a9f-bc8c-58be26e90fcc")
 	)
 	(wire
 		(pts
@@ -2932,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 254) (xy 241.3 238.76)
+			(xy 231.14 254) (xy 231.14 238.76)
 		)
 		(stroke
 			(width 0)
@@ -2942,23 +3057,13 @@
 	)
 	(wire
 		(pts
-			(xy 482.6 223.52) (xy 467.36 223.52)
+			(xy 482.6 220.98) (xy 467.36 220.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8ff982a-eb40-4a06-8afb-cc0e7441e22f")
-	)
-	(wire
-		(pts
-			(xy 447.04 241.3) (xy 447.04 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf3726b-6ada-41c6-b521-406c55c0f357")
+		(uuid "c1c202e0-3a68-4962-a8d8-d958560a3ded")
 	)
 	(wire
 		(pts
@@ -2972,7 +3077,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 182.88) (xy 251.46 190.5)
+			(xy 251.46 182.88) (xy 251.46 200.66)
 		)
 		(stroke
 			(width 0)
@@ -2989,16 +3094,6 @@
 			(type default)
 		)
 		(uuid "cbc5157c-9086-402e-91fe-20d6f0b8948b")
-	)
-	(wire
-		(pts
-			(xy 482.6 218.44) (xy 482.6 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd408f4c-6ef8-4b21-bcf6-31209502e092")
 	)
 	(wire
 		(pts
@@ -3042,6 +3137,16 @@
 	)
 	(wire
 		(pts
+			(xy 505.46 226.06) (xy 505.46 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ef3df5-2f68-4237-96a2-76ba5252a059")
+	)
+	(wire
+		(pts
 			(xy 246.38 200.66) (xy 246.38 205.74)
 		)
 		(stroke
@@ -3069,16 +3174,6 @@
 			(type default)
 		)
 		(uuid "d66733a5-6388-4e61-a158-c22f5162b31a")
-	)
-	(wire
-		(pts
-			(xy 241.3 190.5) (xy 241.3 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db21bad9-347d-4699-a4e9-38d1ba2c5f16")
 	)
 	(wire
 		(pts
@@ -3142,16 +3237,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 190.5) (xy 251.46 195.5806)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea175abb-febd-4c78-a5e2-88c056a306ed")
-	)
-	(wire
-		(pts
 			(xy 467.36 175.26) (xy 487.68 175.26)
 		)
 		(stroke
@@ -3159,16 +3244,6 @@
 			(type default)
 		)
 		(uuid "eb06e6a7-197d-4857-8c8d-aa6f84b475f4")
-	)
-	(wire
-		(pts
-			(xy 505.46 218.44) (xy 505.46 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed6d9cf3-cf88-4957-9800-905f15f81c12")
 	)
 	(wire
 		(pts
@@ -3252,7 +3327,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 233.68) (xy 467.36 238.76)
+			(xy 467.36 231.14) (xy 467.36 233.68)
 		)
 		(stroke
 			(width 0)
@@ -3459,6 +3534,50 @@
 			)
 		)
 	)
+	(global_label "ADC_I2C_SCL"
+		(shape input)
+		(at 482.6 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a56eb637-acca-4345-966a-98df5a263634")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 497.7409 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_I2C_SDA"
+		(shape input)
+		(at 505.46 238.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be4e2cc1-1c4a-4899-9a92-6e5ec2313d70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 520.6614 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "ulib_Connectors_DuraClik:502352-0210")
 		(at 518.16 208.28 90)
@@ -3539,44 +3658,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_Mounting_Holes:M2 Pad")
-		(at 55.88 327.66 0)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 241.3 177.8 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0336b92d-9a3c-426c-8320-0a6a0df7a9db")
-		(property "Reference" "U209"
-			(at 58.42 327.0249 0)
+		(uuid "07eda75f-7c9e-4c19-9a38-ed714f7d6d09")
+		(property "Reference" "R203"
+			(at 238.76 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 58.42 328.93 0)
+		(property "Value" "1k"
+			(at 238.76 172.0849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "ulib_Mechanical:MountingHole_3.2mm_M2_Pad_Via"
-			(at 55.88 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 327.66 0)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 241.3 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3584,8 +3694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 327.66 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 241.3 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3593,13 +3703,61 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "99d131a3-483d-4c03-ba2e-54e8d436b1bb")
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 241.3 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CRG0603F1K0"
+			(at 238.76 173.99 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 238.76 175.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 238.76 178.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 238.76 180.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "b6f5d051-a1f3-45c4-840d-e746c62e5505")
+		)
+		(pin "2"
+			(uuid "cd72858c-3327-4d3a-bd60-5f0187309944")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "U209")
+					(reference "R203")
 					(unit 1)
 				)
 			)
@@ -3666,6 +3824,331 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor 12V Picogrid:2.2u")
+		(at 314.96 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dc07a69-0da0-478f-a027-4db48a852043")
+		(property "Reference" "C202"
+			(at 318.77 174.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 318.77 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 324.485 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.calchipelectronics.com/pdf/gmc_series.pdf"
+			(at 326.39 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V; X7R; 10%; 0805; GMC21X7R225K16NT"
+			(at 314.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "C0603C104J4RACTU"
+			(at 318.77 178.9431 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Mfr Link" ""
+			(at 314.96 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 318.77 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 318.77 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 318.77 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "919868c9-4bab-44f7-8667-ad2371d539fb")
+		)
+		(pin "2"
+			(uuid "f4a71a1e-ada5-4c53-9f32-091e6e6c5d4d")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 246.38 210.82 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "235b86e5-7601-419d-9bc0-6fb681f8978b")
+		(property "Reference" "R204"
+			(at 243.84 202.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500R"
+			(at 243.84 205.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 246.38 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 246.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "RT0603BRC07500RL"
+			(at 243.84 207.01 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 243.84 208.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 243.84 211.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "0.1%"
+			(at 243.84 213.9949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "733caa9f-5a27-420f-85c8-ce260c5ca0eb")
+		)
+		(pin "2"
+			(uuid "cfc826c7-24e5-4f51-ae2c-2ee04916be82")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "R204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 482.6 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "2643deb1-cdd0-47b8-8c41-33b8bba70583")
+		(property "Reference" "R212"
+			(at 485.14 222.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 485.14 225.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 482.6 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 482.6 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 482.6 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CRG0603F1K0"
+			(at 485.14 227.33 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 485.14 229.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 485.14 231.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 485.14 234.3149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "3ece042d-bd9b-4699-8748-699cf1b81824")
+		)
+		(pin "2"
+			(uuid "26e6130c-5c8a-4d7b-a8c2-191eb765c2c5")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -3802,17 +4285,17 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 546.1 208.28 0)
-		(mirror y)
+		(lib_id "ulib_Mounting_Holes:M3 Pad")
+		(at 55.88 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
-		(uuid "3297acb8-7afb-4659-9eeb-4afc12655118")
-		(property "Reference" "R214"
-			(at 543.56 205.1049 0)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f25195e-f2d2-4fda-9fd9-503562ef2a5f")
+		(property "Reference" "H203"
+			(at 58.42 325.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,8 +4303,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
-			(at 543.56 207.6449 0)
+		(property "Value" "M3-PAD"
+			(at 58.42 327.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,8 +4312,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 546.1 222.885 0)
+		(property "Footprint" "ulib_Mechanical:MountingHole_3.2mm_M3_Pad_Via"
+			(at 55.88 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,8 +4321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 546.1 225.425 0)
+		(property "Datasheet" "~"
+			(at 55.88 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,8 +4330,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 546.1 208.28 0)
+		(property "Description" "Mounting Hole with pad with connection"
+			(at 55.88 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3856,87 +4339,48 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "CRG0603F1K0"
-			(at 543.56 209.55 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 543.56 211.4549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 543.56 213.9949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 543.56 216.5349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "c718a332-adc6-44ad-8ac4-354f5917463b")
-		)
-		(pin "1"
-			(uuid "3df77fb5-0380-4efa-816a-cd47feca60bf")
+		(pin "MP"
+			(uuid "07e937e0-29e6-4366-9cf0-f3463632d18c")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R214")
+					(reference "H203")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 241.3 172.72 0)
-		(mirror y)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 358.14 238.76 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3511fb53-f75d-4012-9843-6030891a8e86")
-		(property "Reference" "R203"
-			(at 238.76 169.5449 0)
+		(uuid "311ba5bb-7dd9-4193-916d-66a747f254f9")
+		(property "Reference" "R209"
+			(at 355.6 230.5049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 238.76 172.0849 0)
+			(at 355.6 233.0449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 241.3 187.325 0)
+			(at 358.14 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,8 +4388,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 241.3 189.865 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 358.14 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,8 +4397,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 241.3 172.72 0)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 358.14 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3963,51 +4407,51 @@
 			)
 		)
 		(property "Mfr PN" "CRG0603F1K0"
-			(at 238.76 173.99 0)
+			(at 355.6 234.95 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Power" "1/10W"
-			(at 238.76 175.8949 0)
+			(at 355.6 236.8549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0603"
-			(at 238.76 178.4349 0)
+			(at 355.6 239.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 238.76 180.9749 0)
+			(at 355.6 241.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "2"
-			(uuid "b268b68d-22e6-4b4c-954f-5d958054c6e5")
-		)
 		(pin "1"
-			(uuid "3a816928-4703-4824-b1ab-3abdba7c7797")
+			(uuid "271c4b41-d161-4c9a-8616-888621f60284")
+		)
+		(pin "2"
+			(uuid "4f0c32ab-f5af-426b-8978-f3cbede05102")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R203")
+					(reference "R209")
 					(unit 1)
 				)
 			)
@@ -4075,6 +4519,111 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "TP201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 502.92 198.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38d320c2-4dc1-48a9-af72-23a2d64cd6a1")
+		(property "Reference" "R214"
+			(at 505.46 189.8649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 505.46 192.4049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 502.92 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 502.92 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 502.92 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "RC0603JR-074K7L"
+			(at 505.46 194.31 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 505.46 196.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 505.46 198.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 505.46 201.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "0d5b173b-6625-48a1-959c-75fef5f02c71")
+		)
+		(pin "2"
+			(uuid "6547cd77-0b8d-429e-9f47-efa6ca7bc14e")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "R214")
 					(unit 1)
 				)
 			)
@@ -4413,73 +4962,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_TestPoints:Pad_0.15mm")
-		(at 241.3 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51f0adcd-22f3-4d3e-bb05-5482055a103e")
-		(property "Reference" "U205"
-			(at 242.57 189.8649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D0.15mm"
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1d939182-0ea0-4d42-bd7f-6728030fbde8")
-		)
-		(instances
-			(project ""
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "U205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 99.06 172.72 0)
 		(unit 1)
@@ -4613,35 +5095,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 358.14 233.68 0)
-		(mirror y)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 251.46 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "54670b04-0fff-424e-a44a-ad7374b3d990")
-		(property "Reference" "R209"
-			(at 355.6 230.5049 0)
+		(uuid "549c31a4-e0b9-45ef-9518-192197903330")
+		(property "Reference" "R205"
+			(at 254 169.5449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1k"
-			(at 355.6 233.0449 0)
+			(at 254 172.0849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 358.14 248.285 0)
+			(at 251.46 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,8 +5130,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 358.14 250.825 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 251.46 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,8 +5139,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 358.14 233.68 0)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 251.46 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,51 +5149,51 @@
 			)
 		)
 		(property "Mfr PN" "CRG0603F1K0"
-			(at 355.6 234.95 0)
+			(at 254 173.99 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Power" "1/10W"
-			(at 355.6 236.8549 0)
+			(at 254 175.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0603"
-			(at 355.6 239.3949 0)
+			(at 254 178.4349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 355.6 241.9349 0)
+			(at 254 180.9749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "2"
-			(uuid "a5faee13-5193-4121-9116-73eafefec62d")
-		)
 		(pin "1"
-			(uuid "bd0e6308-1977-4d63-92b6-12057f1ecd65")
+			(uuid "36b3f889-69aa-4d29-b10c-4bfc36a39a20")
+		)
+		(pin "2"
+			(uuid "593d5763-3738-4455-9dad-a80cd2c34213")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R209")
+					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -4787,8 +5268,7 @@
 	)
 	(symbol
 		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 241.3 233.68 0)
-		(mirror y)
+		(at 231.14 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4797,7 +5277,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b5a0ec1-e8e4-4617-838c-f9f3665fb079")
 		(property "Reference" "R202"
-			(at 238.76 230.5049 0)
+			(at 233.68 230.5049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +5286,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 238.76 233.0449 0)
+			(at 233.68 233.0449 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4815,7 +5295,7 @@
 			)
 		)
 		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 241.3 248.285 0)
+			(at 231.14 248.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4824,7 +5304,7 @@
 			)
 		)
 		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 241.3 250.825 0)
+			(at 231.14 250.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4833,7 +5313,7 @@
 			)
 		)
 		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 241.3 233.68 0)
+			(at 231.14 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +5322,7 @@
 			)
 		)
 		(property "Mfr PN" "CR0603-10W-000T"
-			(at 238.76 234.95 0)
+			(at 233.68 234.95 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -4851,7 +5331,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 238.76 236.8549 0)
+			(at 233.68 236.8549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,7 +5340,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 238.76 239.3949 0)
+			(at 233.68 239.3949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,7 +5349,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 238.76 241.9349 0)
+			(at 233.68 241.9349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5179,7 +5659,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 447.04 241.3 0)
+		(at 447.04 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5188,7 +5668,7 @@
 		(fields_autoplaced yes)
 		(uuid "649cff8e-abed-408e-b3b9-94c6ae73f3b9")
 		(property "Reference" "#PWR0215"
-			(at 447.04 247.65 0)
+			(at 447.04 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,7 +5677,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 447.04 246.38 0)
+			(at 447.04 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 447.04 241.3 0)
+			(at 447.04 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5694,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 447.04 241.3 0)
+			(at 447.04 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5703,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 447.04 241.3 0)
+			(at 447.04 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,6 +5718,111 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 505.46 231.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "64df03a4-1189-4bfa-9eba-05a63133f20d")
+		(property "Reference" "R215"
+			(at 508 222.8849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 508 225.4249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 505.46 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 505.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 505.46 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CRG0603F1K0"
+			(at 508 227.33 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 508 229.2349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 508 231.7749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 508 234.3149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "0f028dee-7cde-40ba-9c2a-e27de5af6c07")
+		)
+		(pin "2"
+			(uuid "a99d1474-c1e9-4118-a1e1-cd1fad6859c9")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "R215")
 					(unit 1)
 				)
 			)
@@ -5554,179 +6139,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_TestPoints:Pad_0.15mm")
-		(at 251.46 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7295bdd3-94e5-4f79-8738-10dcd7507eaf")
-		(property "Reference" "U207"
-			(at 252.73 189.8649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 252.73 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D0.15mm"
-			(at 251.46 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c3859826-8361-4dd7-ab1d-b56abc61707e")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "U207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 358.14 218.44 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7711db01-a1b9-456b-bd9b-e040c42ae202")
-		(property "Reference" "R208"
-			(at 355.6 215.2649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 355.6 217.8049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 358.14 233.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 358.14 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 358.14 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CRG0603F1K0"
-			(at 355.6 219.71 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 355.6 221.6149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 355.6 224.1549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 355.6 226.6949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "378634f9-9763-46cd-b223-f4fbedc58dd1")
-		)
-		(pin "1"
-			(uuid "7cdd4cac-8c73-41a6-a446-5930aee34e20")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitor 12V Picogrid:22u")
 		(at 180.34 172.72 0)
 		(unit 1)
@@ -5781,7 +6193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "GMC21X5R226M16NT"
+		(property "Mfr PN" "CC0805KKX5R8BB106"
 			(at 182.88 173.99 0)
 			(effects
 				(font
@@ -5836,111 +6248,6 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "C201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 482.6 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "813e55ae-3aa3-463c-b4d6-6ed9a9c411c8")
-		(property "Reference" "R212"
-			(at 485.14 210.1849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 485.14 212.7249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 482.6 227.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 482.6 230.505 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 482.6 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CRG0603F1K0"
-			(at 485.14 214.63 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 485.14 216.5349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 485.14 219.0749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 485.14 221.6149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "6b4e6c2f-3163-4169-b3e3-ea0822301254")
-		)
-		(pin "1"
-			(uuid "20214e6f-231b-42b2-9678-e85e30e2256e")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -6047,111 +6354,6 @@
 			(project ""
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "R206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 251.46 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f0d1686-a234-4347-a109-1d60822bafed")
-		(property "Reference" "R205"
-			(at 254 169.5449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 254 172.0849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 251.46 187.325 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 251.46 189.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 251.46 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CRG0603F1K0"
-			(at 254 173.99 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 254 175.8949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 254 178.4349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 254 180.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "98fa081c-f91a-4917-b0f5-2e604ffcc8ed")
-		)
-		(pin "1"
-			(uuid "9756054a-348f-4f3c-b301-895854b9e536")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R205")
 					(unit 1)
 				)
 			)
@@ -6285,112 +6487,6 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "#PWR0211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 502.92 193.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "928c8f44-c733-49f7-a3c4-4d0c45b12e8c")
-		(property "Reference" "R210"
-			(at 500.38 189.8649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 500.38 192.4049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 502.92 207.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 502.92 210.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 502.92 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "RC0603JR-074K7L"
-			(at 500.38 194.31 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 500.38 196.2149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 500.38 198.7549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 500.38 201.2949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "c9e628c4-31b1-4554-8beb-cbb49b68f9cf")
-		)
-		(pin "1"
-			(uuid "8dcffed5-ebcd-4eda-8fba-c49ff0ae9cdd")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -6615,44 +6711,34 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_Mounting_Holes:M2 Pad")
-		(at 55.88 337.82 0)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 487.68 198.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9748ccf2-8e89-48ac-a635-4f5c3391f6b2")
-		(property "Reference" "U210"
-			(at 58.42 337.1849 0)
+		(uuid "9791a167-3248-4bf2-8d00-a5cc070360b3")
+		(property "Reference" "R213"
+			(at 490.22 189.8649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 58.42 339.09 0)
+		(property "Value" "4k7"
+			(at 490.22 192.4049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "ulib_Mechanical:MountingHole_3.2mm_M2_Pad_Via"
-			(at 55.88 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 337.82 0)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 487.68 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,8 +6746,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 55.88 337.82 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 487.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,13 +6755,61 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
-			(uuid "cb5e3a65-ada2-4181-8efa-83243f4103a8")
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 487.68 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "RC0603JR-074K7L"
+			(at 490.22 194.31 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 490.22 196.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 490.22 198.7549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 490.22 201.2949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "165d859b-9bb4-4a69-b898-71decf39dc6a")
+		)
+		(pin "2"
+			(uuid "55d0164d-bf91-4161-a3ab-d937f642b79b")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "U210")
+					(reference "R213")
 					(unit 1)
 				)
 			)
@@ -6748,35 +6882,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_TestPoints:Pad_0.15mm")
-		(at 251.46 195.5806 0)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 299.72 205.74 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af8ab7fa-6fa3-41d4-ace4-9d71a04bdec8")
-		(property "Reference" "U208"
-			(at 252.73 194.9455 0)
+		(uuid "ae83a276-3c91-483c-80ce-5ebe0f1c80e8")
+		(property "Reference" "R207"
+			(at 297.18 197.4849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "~"
-			(at 252.73 196.8506 0)
+		(property "Value" "2k05"
+			(at 297.18 200.0249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D0.15mm"
-			(at 251.46 195.5806 0)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 299.72 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,8 +6918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 251.46 195.5806 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 299.72 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,57 +6927,96 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 251.46 195.5806 0)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 299.72 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mfr PN" "RC0603FR-072K05L"
+			(at 297.18 201.93 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 297.18 203.8349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 297.18 206.3749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 297.18 208.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "29074872-a01b-4152-af7b-48ad1365430f")
+			(uuid "2830b9c9-5f5c-440f-9195-10072a73c0bd")
+		)
+		(pin "2"
+			(uuid "600e80de-bf76-40df-9995-c6b898f06abb")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "U208")
+					(reference "R207")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 505.46 213.36 0)
-		(mirror y)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 386.08 203.2 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
-		(uuid "bcb72b8d-3346-4801-b83f-1c9945f1c783")
-		(property "Reference" "R213"
-			(at 502.92 210.1849 0)
+		(dnp no)
+		(uuid "c0df3daf-7682-428f-b1bc-753b4d6a5ac0")
+		(property "Reference" "R210"
+			(at 385.826 200.0251 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 502.92 212.7249 0)
+		(property "Value" "100R"
+			(at 385.826 197.4851 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 505.46 227.965 0)
+			(at 370.84 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,8 +7024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 505.46 230.505 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 368.3 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,8 +7033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 505.46 213.36 0)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 386.08 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,542 +7043,51 @@
 			)
 		)
 		(property "Mfr PN" "CRG0603F1K0"
-			(at 502.92 214.63 0)
+			(at 385.826 195.58 90)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Power" "1/10W"
-			(at 502.92 216.5349 0)
+			(at 385.826 193.6751 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0603"
-			(at 502.92 219.0749 0)
+			(at 385.826 191.1351 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 502.92 221.6149 0)
+			(at 385.826 188.5951 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "2"
-			(uuid "2ddc9126-ff26-4eee-8c44-54bfcd77f699")
-		)
 		(pin "1"
-			(uuid "fd7f5f2b-ed6c-4554-b082-3e2390a5ee0a")
+			(uuid "eb915961-4de7-42e9-8f26-ddb0ebcc7dc1")
+		)
+		(pin "2"
+			(uuid "83fc41ea-7a30-4aaf-ac5c-8c3554af2ec3")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_TestPoints:Pad_0.15mm")
-		(at 241.3 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf035758-9f1f-463a-ae4b-965e30e46dfe")
-		(property "Reference" "U206"
-			(at 242.57 194.9449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 242.57 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D0.15mm"
-			(at 241.3 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ceba3144-1f6b-4ab2-8e0d-3303c9b42630")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "U206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Capacitor_SMD_250V:470p")
-		(at 467.36 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0dc5ccb-62dd-4036-b311-b2f6cbfa4bbd")
-		(property "Reference" "C205"
-			(at 469.9 179.7049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 469.9 182.2449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Capacitor_SMD:C_0603_1608Metric"
-			(at 467.36 194.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C471JAGACAUTO"
-			(at 467.36 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "250V; C0G; 5%; 0603; C0603C471JAGACAUTO"
-			(at 467.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "C0603C104J4RACTU"
-			(at 469.9 184.15 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 469.9 186.0549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 469.9 188.5949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 469.9 191.1349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "98b02d1a-e50e-44e9-ab7a-0f07538fa1d2")
-		)
-		(pin "2"
-			(uuid "c8508611-e6dd-485d-807c-60dc66411a52")
-		)
-		(instances
-			(project ""
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "C205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 467.36 228.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d323517e-a732-40a1-a366-3bb962475fb9")
-		(property "Reference" "R211"
-			(at 464.82 225.4249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 464.82 227.9649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 467.36 243.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 467.36 245.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 467.36 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "CRG0603F1K0"
-			(at 464.82 229.87 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 464.82 231.7749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 464.82 234.3149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 464.82 236.8549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "6b7f2ac2-c985-4123-bec9-3f0fa7825cf2")
-		)
-		(pin "1"
-			(uuid "d2345ccf-7801-4859-b3d8-b57052c34e24")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Capacitor_SMD_250V:470p")
-		(at 314.96 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d34b83ae-4a65-4f09-8609-3af54a38cd99")
-		(property "Reference" "C204"
-			(at 317.5 174.6249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 317.5 177.1649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Capacitor_SMD:C_0603_1608Metric"
-			(at 314.96 189.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C471JAGACAUTO"
-			(at 314.96 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "250V; C0G; 5%; 0603; C0603C471JAGACAUTO"
-			(at 314.96 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "C0603C104J4RACTU"
-			(at 317.5 179.07 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 317.5 180.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 317.5 183.5149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 317.5 186.0549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "25e72a1e-48d7-42d6-87b7-5ae4d7bbdd81")
-		)
-		(pin "2"
-			(uuid "0953d042-c4a7-480f-9564-e5c5ef9cbf9c")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "C204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 246.38 205.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3ed3197-db77-4cee-b82c-cc1c54577273")
-		(property "Reference" "R217"
-			(at 243.84 202.5649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "500"
-			(at 243.84 205.1049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 246.38 220.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 246.38 222.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 246.38 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "RT0603BRC07500RL"
-			(at 243.84 207.01 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 243.84 208.9149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 243.84 211.4549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 243.84 213.9949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "6756813e-ab7c-4b6c-85a6-45f2f57de823")
-		)
-		(pin "1"
-			(uuid "54a9404c-d88a-4b0b-ae1c-b5b7a4ae5c97")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R217")
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -7466,7 +7148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "GMC21X5R226M16NT"
+		(property "Mfr PN" "CC0805KKX5R8BB106"
 			(at 396.24 209.55 0)
 			(effects
 				(font
@@ -7527,35 +7209,35 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 386.08 203.2 270)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 358.14 223.52 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "db031536-4f3f-455c-8a6e-72ea807c1180")
-		(property "Reference" "R207"
-			(at 381.508 189.484 90)
+		(uuid "d96c70a0-2505-4f2d-9da2-9f87b392a01d")
+		(property "Reference" "R208"
+			(at 355.6 215.2649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100R"
-			(at 381.508 192.024 90)
+		(property "Value" "1k"
+			(at 355.6 217.8049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 371.475 203.2 0)
+			(at 358.14 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7563,8 +7245,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 368.935 203.2 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 358.14 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7572,8 +7254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 386.08 203.2 0)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 358.14 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7581,158 +7263,52 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "RC0603JR-07100RL"
-			(at 381.508 193.9291 90)
+		(property "Mfr PN" "CRG0603F1K0"
+			(at 355.6 219.71 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Power" "1/10W"
-			(at 381.508 195.834 90)
+			(at 355.6 221.6149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0603"
-			(at 381.508 198.374 90)
+			(at 355.6 224.1549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 381.508 200.914 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "2"
-			(uuid "652e3180-ab7f-4eff-b279-0c094880331a")
-		)
-		(pin "1"
-			(uuid "199c5135-e3ec-4781-ac33-2f50c95dcd5a")
-		)
-		(instances
-			(project "Strain Gauge POC Board V1"
-				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 299.72 200.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd60727e-8a23-4e0f-b35e-0fa5c03ad13b")
-		(property "Reference" "R218"
-			(at 297.18 197.4849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k05"
-			(at 297.18 200.0249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 299.72 215.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 299.72 217.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 299.72 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr PN" "RC0603FR-072K05L"
-			(at 297.18 201.93 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "Power" "1/10W"
-			(at 297.18 203.8349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "0603"
-			(at 297.18 206.3749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 297.18 208.9149 0)
+			(at 355.6 226.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "2"
-			(uuid "46016436-3480-42f9-b010-c1e9be5a3f8f")
-		)
 		(pin "1"
-			(uuid "8c1b88f6-bfc8-43fc-ae10-a3a2e0400839")
+			(uuid "b43e0d68-1a7e-40cb-991e-665478e3b66e")
+		)
+		(pin "2"
+			(uuid "a9d6c637-2cb2-41e5-bf4d-0dc1896e2ce7")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R218")
+					(reference "R208")
 					(unit 1)
 				)
 			)
@@ -7870,35 +7446,139 @@
 		)
 	)
 	(symbol
-		(lib_id "ulib_Resistor_SMD_0.1W:0")
-		(at 487.68 193.04 0)
-		(mirror y)
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 546.1 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "eb4d1f53-09af-4cfc-b1a5-c55d71eacbee")
+		(property "Reference" "R216"
+			(at 548.64 205.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 548.64 207.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
+			(at 546.1 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 546.1 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 546.1 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "CRG0603F1K0"
+			(at 548.64 209.55 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify right)
+			)
+		)
+		(property "Power" "1/10W"
+			(at 548.64 211.4549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Package" "0603"
+			(at 548.64 213.9949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 548.64 216.5349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "250990e6-0899-460b-bf66-69fca3154b70")
+		)
+		(pin "2"
+			(uuid "f135f57c-2409-4cfe-9e36-953dae906178")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Resistor_SMD_0.5W:1k")
+		(at 467.36 231.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb49b58c-9452-453d-9cdc-00c9d80793eb")
-		(property "Reference" "R204"
-			(at 485.14 189.8649 0)
+		(uuid "ebcfa35b-d140-4f43-bc96-f49e01db428b")
+		(property "Reference" "R211"
+			(at 469.9 222.8849 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "4k7"
-			(at 485.14 192.4049 0)
+		(property "Value" "1k"
+			(at 469.9 225.4249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "ulib_Resistors_SMD:R_0603_1608Metric"
-			(at 487.68 207.645 0)
+			(at 467.36 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7906,8 +7586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://page.venkel.com/hubfs/Resources/Datasheets/CR-Series.pdf"
-			(at 487.68 210.185 0)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/esr-e.pdf"
+			(at 467.36 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,8 +7595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1/10W 0 1% SMD Resistor - Thick Film"
-			(at 487.68 193.04 0)
+		(property "Description" "1/2W 1k 5% SMD Resistor - Thick Film Anti-Surge"
+			(at 467.36 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7924,52 +7604,52 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr PN" "RC0603JR-074K7L"
-			(at 485.14 194.31 0)
+		(property "Mfr PN" "CRG0603F1K0"
+			(at 469.9 227.33 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Power" "1/10W"
-			(at 485.14 196.2149 0)
+			(at 469.9 229.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Package" "0603"
-			(at 485.14 198.7549 0)
+			(at 469.9 231.7749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 485.14 201.2949 0)
+			(at 469.9 234.3149 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "2"
-			(uuid "1ad0217f-1916-4c5e-9c45-49dd91fd230c")
-		)
 		(pin "1"
-			(uuid "de58f71f-8acc-4cf9-8d96-d24f159d12db")
+			(uuid "5b689ed5-25d2-4690-97ad-ca2f07461184")
+		)
+		(pin "2"
+			(uuid "814e3bb6-f940-4fb5-8081-f09ea8110a06")
 		)
 		(instances
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
-					(reference "R204")
+					(reference "R211")
 					(unit 1)
 				)
 			)
@@ -8036,6 +7716,187 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor 12V Picogrid:2.2u")
+		(at 467.36 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1b12d89-b694-4acb-a6f4-238c224ae9e3")
+		(property "Reference" "C204"
+			(at 471.17 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 471.17 182.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 476.885 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.calchipelectronics.com/pdf/gmc_series.pdf"
+			(at 478.79 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16V; X7R; 10%; 0805; GMC21X7R225K16NT"
+			(at 467.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr PN" "C0603C104J4RACTU"
+			(at 471.17 184.0231 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify left)
+			)
+		)
+		(property "Mfr Link" ""
+			(at 467.36 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 471.17 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 471.17 188.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "0603"
+			(at 471.17 191.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "73c0c8b8-555a-468a-8c03-5f0ed9dee105")
+		)
+		(pin "2"
+			(uuid "d7a934be-9c90-44c9-9884-b42d260ec9e9")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Mounting_Holes:M3 Pad")
+		(at 55.88 337.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f43e33df-dce6-4319-b8ad-3fe3a7e33917")
+		(property "Reference" "H204"
+			(at 58.42 335.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3-PAD"
+			(at 58.42 337.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ulib_Mechanical:MountingHole_3.2mm_M3_Pad_Via"
+			(at 55.88 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with pad with connection"
+			(at 55.88 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "MP"
+			(uuid "12908349-1a35-432a-8644-284a15f66e06")
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "H204")
 					(unit 1)
 				)
 			)
