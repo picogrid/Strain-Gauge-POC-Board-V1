@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "86d41315-8564-4bca-9150-9edda69acf24")
+	(paper "A2")
+	(lib_symbols)
+	(sheet
+		(at 228.6 152.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c4515538-bae9-4cf8-b6d8-6ea87fa2c929")
+		(property "Sheetname" "Single Bridge 1"
+			(at 228.6 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Single Bridge 1.kicad_sch"
+			(at 228.6 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 149.86)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe881be6-80bd-426d-a3d6-be163c7c4112")
+		(property "Sheetname" "Double Bridge 1"
+			(at 180.34 149.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Double Bridge 1.kicad_sch"
+			(at 180.34 175.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
