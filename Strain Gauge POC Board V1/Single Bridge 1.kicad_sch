@@ -1273,6 +1273,86 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ulib_Mounting_Holes:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ulib_Mechanical:Fiducial_0.5mm_Mask1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ulib_Mounting_Holes:M2 Pad"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3526,6 +3606,70 @@
 		)
 	)
 	(symbol
+		(lib_id "ulib_Mounting_Holes:Fiducial")
+		(at 81.28 307.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06878eb4-5694-4121-a952-f59f6cb2fb09")
+		(property "Reference" "FID201"
+			(at 83.82 306.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 83.82 308.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ulib_Mechanical:Fiducial_0.5mm_Mask1mm"
+			(at 81.28 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 81.28 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "FID201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 467.36 193.04 0)
 		(unit 1)
@@ -3586,6 +3730,70 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Mounting_Holes:Fiducial")
+		(at 81.28 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1522c146-31ea-4e36-9c0a-bdb5ab3f6308")
+		(property "Reference" "FID202"
+			(at 83.82 316.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 83.82 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ulib_Mechanical:Fiducial_0.5mm_Mask1mm"
+			(at 81.28 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 81.28 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "FID202")
 					(unit 1)
 				)
 			)
@@ -4203,6 +4411,70 @@
 		)
 	)
 	(symbol
+		(lib_id "ulib_Mounting_Holes:Fiducial")
+		(at 81.28 337.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44010c2d-5b03-474f-89c8-9997a522e391")
+		(property "Reference" "FID204"
+			(at 83.82 336.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 83.82 339.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ulib_Mechanical:Fiducial_0.5mm_Mask1mm"
+			(at 81.28 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 81.28 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "FID204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 175.26 0)
 		(unit 1)
@@ -4810,6 +5082,70 @@
 			(project "Strain Gauge POC Board V1"
 				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
 					(reference "TP205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ulib_Mounting_Holes:Fiducial")
+		(at 81.28 327.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe8aad4-ad1a-4ec2-ba15-b0043652094b")
+		(property "Reference" "FID203"
+			(at 83.82 326.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 83.82 328.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ulib_Mechanical:Fiducial_0.5mm_Mask1mm"
+			(at 81.28 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 81.28 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Strain Gauge POC Board V1"
+				(path "/86d41315-8564-4bca-9150-9edda69acf24/c4515538-bae9-4cf8-b6d8-6ea87fa2c929"
+					(reference "FID203")
 					(unit 1)
 				)
 			)
