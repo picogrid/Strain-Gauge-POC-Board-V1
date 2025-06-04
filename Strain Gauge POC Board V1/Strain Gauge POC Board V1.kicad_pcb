@@ -180,7 +180,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R206"
-			(at 0 -1.27 0)
+			(at 0.777 1.193 0)
 			(layer "F.SilkS" knockout)
 			(uuid "644c212b-037f-450d-8bce-458d983d3b1d")
 			(effects
@@ -2175,7 +2175,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R204"
-			(at 0 -1.27 90)
+			(at -0.962 -1.88 0)
 			(layer "F.SilkS" knockout)
 			(uuid "9d970bd5-f16d-438c-90cf-c77f78e11aef")
 			(effects
@@ -2398,7 +2398,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R208"
-			(at -2.68 -0.044 90)
+			(at -2.08 0.356 0)
 			(layer "F.SilkS" knockout)
 			(uuid "9661de3c-5cfe-4133-9768-16cd9c850f4f")
 			(effects
@@ -3267,6 +3267,7 @@
 		(property "Reference" "TP204"
 			(at 0 -2.398 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b6e20214-cf59-4428-becf-fec5518c11ea")
 			(effects
 				(font
@@ -3338,17 +3339,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "f9422692-3fda-4db1-8e95-22c765e29339")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.4 0)
-			(layer "F.Fab")
-			(uuid "fa172f3e-69fb-4baa-bc27-a102bb63ac75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -4111,7 +4101,8 @@
 		(property "Reference" "TP203"
 			(at 0 -2.398 0)
 			(layer "F.SilkS")
-			(uuid "9e795d7a-1601-47e5-a454-32bd4b65c0ff")
+			(hide yes)
+			(uuid "5e15d048-b460-4eaa-9704-c9f007de992d")
 			(effects
 				(font
 					(size 1 1)
@@ -4122,7 +4113,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.55 0)
 			(layer "F.Fab")
-			(uuid "ff6a04d8-6d3f-4d9c-9eb9-05bbee34d4b8")
+			(uuid "8b3f58d9-bda7-432d-a086-e5b7d2cea55f")
 			(effects
 				(font
 					(size 1 1)
@@ -4135,7 +4126,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0055f29-9da8-496a-aacb-64a8517aac6f")
+			(uuid "eafdff8a-bde6-4cda-891c-8984fb486875")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4148,7 +4139,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "279fec31-a775-4b6f-ad8f-53be0c8ccb38")
+			(uuid "5a996f9a-70d5-46c7-9d59-e94c3f789ae9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,17 +4173,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e0c3b71a-e59c-4e79-a02d-507efb655eb5")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.4 0)
-			(layer "F.Fab")
-			(uuid "2ff972e5-1b26-4ec5-bce6-835c9fa3d158")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -4642,7 +4622,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R217"
-			(at 0 -1.27 0)
+			(at -3.072 -1.169 0)
 			(layer "F.SilkS" knockout)
 			(uuid "af858d5e-da66-4c27-9f32-5f97168f1908")
 			(effects
@@ -4867,6 +4847,7 @@
 		(property "Reference" "TP202"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "65ec1d75-aafe-4bfc-8aef-c6e1b5e1f119")
 			(effects
 				(font
@@ -4938,17 +4919,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "5453b1aa-01e1-4535-b417-f01ffea75b31")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "8c657d74-fc70-4919-b57f-68547ce67262")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -7294,7 +7264,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R210"
-			(at 0 -1.27 90)
+			(at 0.969 1.88 0)
 			(layer "F.SilkS" knockout)
 			(uuid "885fe3fc-2df9-4ba9-b24d-a56e148a60b0")
 			(effects
@@ -7469,7 +7439,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "7f3d6bfb-734d-4486-bdb0-695f7d7d1b8c")
 			(effects
@@ -8893,7 +8863,8 @@
 		(property "Reference" "TP201"
 			(at 0 -1.998 0)
 			(layer "F.SilkS")
-			(uuid "8ed1109d-492a-4250-a505-bb7e20d7ee66")
+			(hide yes)
+			(uuid "d8a69857-9e34-4e04-9694-56725daaf875")
 			(effects
 				(font
 					(size 1 1)
@@ -8904,7 +8875,7 @@
 		(property "Value" "TestPoint"
 			(at 0 2.05 0)
 			(layer "F.Fab")
-			(uuid "21b065dc-eea9-4698-8619-84127da422f0")
+			(uuid "85855ab5-df9e-43ec-a6d1-5af104f899a2")
 			(effects
 				(font
 					(size 1 1)
@@ -8917,7 +8888,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5449b259-9a55-47c4-b4db-06c6ea3a0b15")
+			(uuid "c2c862b1-8d27-4a62-a22e-8ac5525396da")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8930,7 +8901,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "764711e7-2115-4291-b3b3-647ee63f7f7f")
+			(uuid "369636e5-ee61-4939-b97a-e7967a90ba87")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8965,17 +8936,6 @@
 			(layer "F.CrtYd")
 			(uuid "14801db5-392e-41a7-818e-83684e362d89")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
-			(layer "F.Fab")
-			(uuid "4ee4b578-beb5-4bbf-8cbd-b0d07dec6cc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 2 2)
@@ -8996,7 +8956,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "U206"
-			(at 0 -1.448 0)
+			(at 6.354 -1.758 0)
 			(layer "F.SilkS")
 			(uuid "6825c64c-3c13-40ae-9e20-c3cc6eef6d1f")
 			(effects
@@ -9048,7 +9008,7 @@
 		(sheetfile "Single Bridge 1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
+			(at 6.354 -1.76 0)
 			(layer "F.Fab")
 			(uuid "aca6a2fa-79b7-457f-be33-3a72c6d9a595")
 			(effects
@@ -11152,7 +11112,8 @@
 		(property "Reference" "TP205"
 			(at 0 -2.898 0)
 			(layer "F.SilkS")
-			(uuid "50e257e6-9b43-4415-b75f-579e56db08e1")
+			(hide yes)
+			(uuid "3b71c0b0-6302-42a8-bff6-69639a1d60d6")
 			(effects
 				(font
 					(size 1 1)
@@ -11163,7 +11124,7 @@
 		(property "Value" "TestPoint"
 			(at 0 3.1 0)
 			(layer "F.Fab")
-			(uuid "60cb4617-ef29-40aa-beb3-491db041938f")
+			(uuid "19909a06-6247-4db3-a340-7381d7bd061f")
 			(effects
 				(font
 					(size 1 1)
@@ -11176,7 +11137,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da6e4d13-10b4-4e0f-b4de-7b78d7fa21c7")
+			(uuid "cf65d19f-b4bb-4cb3-8cc3-4f52712218a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11189,7 +11150,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e2da0d9-1b6d-468d-b2de-0889b6abe2e7")
+			(uuid "f27ad4e1-410a-4780-b547-10855563308b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11223,17 +11184,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "dc57310e-e99d-4d8c-bff1-327379490d19")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "bd314e2b-ce2c-4486-8a81-4826ddb93df9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -11841,7 +11791,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R202"
-			(at 0 -1.27 90)
+			(at 0.121 -1.898 180)
 			(layer "F.SilkS" knockout)
 			(uuid "a68bb8fd-0c6e-4f36-bc67-d571164ffc79")
 			(effects
@@ -12144,7 +12094,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R209"
-			(at 2.68 0.066 90)
+			(at 2.08 0.266 180)
 			(layer "F.SilkS" knockout)
 			(uuid "b473ae45-b48a-40c7-bc31-9c898e2ff112")
 			(effects
@@ -14294,7 +14244,7 @@
 		(descr "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)")
 		(tags "connector Molex DuraClik side entry")
 		(property "Reference" "J202"
-			(at -3.683 4.191 90)
+			(at -4.676 4.518 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "b2a83f37-5476-4fcf-8ca6-d1b14008271e")
@@ -14584,7 +14534,7 @@
 		(descr "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)")
 		(tags "connector Molex DuraClik side entry")
 		(property "Reference" "J203"
-			(at -3.683 4.191 90)
+			(at -4.614 4.436 0)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "f7325971-4bfe-4dbd-9a6d-369d55cf2a8f")
@@ -14874,7 +14824,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "U207"
-			(at 0 -1.448 0)
+			(at 9.17 -0.68057 0)
 			(layer "F.SilkS")
 			(uuid "a90737d6-f538-4d79-9fc8-540636212316")
 			(effects
@@ -14926,7 +14876,7 @@
 		(sheetfile "Single Bridge 1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
+			(at 9.17 -0.68257 0)
 			(layer "F.Fab")
 			(uuid "e7bb8abf-58dd-4c7c-adee-3c9dbbbca410")
 			(effects
@@ -16552,6 +16502,7 @@
 		(property "Reference" "TP206"
 			(at 0 -2.898 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a5b3cf4d-f663-4382-a215-b7e2da2a8a84")
 			(effects
 				(font
@@ -16563,6 +16514,7 @@
 		(property "Value" "TestPoint"
 			(at 0 3.1 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "b876052f-2ce5-42d7-9a77-e0330a33b5a2")
 			(effects
 				(font
@@ -16623,17 +16575,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "13ee0fda-3145-4593-80e5-1f28ae20f539")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "328e7263-85ac-44a3-a0b5-b2167f9f6ce6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -17686,7 +17627,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R205"
-			(at 0 -1.27 0)
+			(at -2.452 0 0)
 			(layer "F.SilkS" knockout)
 			(uuid "137b23d2-67c2-4618-a314-e18425d466d1")
 			(effects
@@ -18201,6 +18142,32 @@
 		(at 127.601 90.186 270)
 		(layer "F.SilkS")
 		(uuid "0362029e-2f18-42d2-8b4f-88b2aa1c3669")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 141.332 94.8 180)
+		(layer "F.SilkS")
+		(uuid "16dfa3c9-853a-4543-9b68-961a742334eb")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 139.3 90.6 0)
+		(layer "F.SilkS")
+		(uuid "25c6887b-1c5d-4e4e-ba3e-83be15afc7ac")
 		(effects
 			(font
 				(size 1.5 1.5)
