@@ -656,5 +656,10 @@
       "Single Bridge 1"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "LAST_EDIT_DATE": "Jun 5, 2025",
+    "REV": "A",
+    "TITLE": "Strain Gauge POC Board",
+    "VERSION": "V1.0"
+  }
 }
