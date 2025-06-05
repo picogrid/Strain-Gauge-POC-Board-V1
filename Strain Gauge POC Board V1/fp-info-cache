@@ -1,4 +1,4 @@
-25796667365678468
+25800165742352747
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103075,12 +103075,19 @@ fiducial
 1
 0
 ulib_Mechanical
+MountingHole_2.9mm_M2.5
+
+
+0
+1
+1
+ulib_Mechanical
 MountingHole_3.2mm_M2_Pad_Via
 Mounting Hole 3.2mm, M3
 mounting hole 3.2mm m3
 0
 5
-4
+1
 ulib_Mechanical
 MountingHole_3.2mm_M3
 Mounting Hole 3.2mm, no annular, M3
@@ -103123,6 +103130,13 @@ net tie solder jumper bridged
 0
 3
 3
+ulib_Mechanical
+Throughhole_Motorshaft_7.5mm
+
+
+0
+1
+1
 ulib_Mechanical
 ZipTie Slot
 
