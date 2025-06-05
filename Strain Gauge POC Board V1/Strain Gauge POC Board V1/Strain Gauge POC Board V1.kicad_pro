@@ -60,8 +60,16 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|148254706|89286194|1f411965-b049-496b-9251-2fc24275c161|5d6ed207-434e-4d63-9fd6-92a9b8d4b79b",
-          "just silkscreen around a screwhole, its fine"
+          "copper_edge_clearance|162281436|102367365|e6cc95eb-91da-491c-8b6f-76fc7c28a3bf|53bff76a-fe3a-410f-82bb-9d2f32bd83bd",
+          ""
+        ],
+        [
+          "copper_edge_clearance|162283034|92839269|4562516d-b0a8-4c6f-8726-6f884b371926|36be6f89-45ba-4488-a0a9-8ce3db3f67ca",
+          ""
+        ],
+        [
+          "courtyards_overlap|131236807|88764660|1f411965-b049-496b-9251-2fc24275c161|5d6ed207-434e-4d63-9fd6-92a9b8d4b79b",
+          ""
         ]
       ],
       "meta": {
